@@ -12,6 +12,29 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+ 
+}
+
+.bk-video{
+    /* Telling our absolute positioned video to 
+  be relative to this element */
+  position: relative;
+
+  width: 400px;
+  height: 200px;
+
+  /* Will not allow the video to overflow the 
+  container */
+  overflow: hidden;
+
+  /* Centering the container's content vertically 
+  and horizontally */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 }
 
 a {
@@ -418,7 +441,7 @@ h6 {
   bottom: 4;
   align-items: center;
   justify-content: center; 
-  z-index:-1;
+  z-index:0;
 }
 
 #hero:before {
