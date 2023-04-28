@@ -11,31 +11,31 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #fefefe;
+  background-color: #000000;
  
 }
 
-.bk-video{
+/*.bk-video{
     /* Telling our absolute positioned video to 
-  be relative to this element */
+  be relative to this element *
   position: relative;
 
   width: 400px;
   height: 200px;
 
   /* Will not allow the video to overflow the 
-  container */
+  container *
   overflow: hidden;
 
   /* Centering the container's content vertically 
-  and horizontally */
+  and horizontally *
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+*/
 
-}
 
 a {
   color: #ffc451;
@@ -482,7 +482,7 @@ h6 {
 #hero .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgb(255, 251, 251);
   height: 100%;
   text-align: center;
 }
@@ -557,7 +557,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #faf9f9;
   font-family: "Poppins", sans-serif;
 }
 
@@ -577,7 +577,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #151515;
+  color: #fffdfd;
 }
 
 /*--------------------------------------------------------------
@@ -1162,7 +1162,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+  background: #000000;
   padding: 60px 0;
 }
 
