@@ -272,6 +272,7 @@ h6 {
   max-height: 60px;
 }
 
+
 /*--------------------------------------------------------------
 #  Get Startet Button
 --------------------------------------------------------------*/
@@ -611,6 +612,10 @@ h6 {
 #hero .icon-box:hover {
   border-color: #ffc451;
 }
+#hero .social-links{
+  position:relative;
+  top: 200em;
+ }
 
 @media (min-width: 1024px) {
   #hero {
@@ -1683,8 +1688,7 @@ section {
 }
 #social-links{
   position: relative;
-  left: 570px;
-  top: 100px;
+  top: 200px;
 }
 
 /* custom code */
